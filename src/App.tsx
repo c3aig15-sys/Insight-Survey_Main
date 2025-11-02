@@ -69,7 +69,7 @@ function App() {
       <nav className="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center gap-2">
               <BarChart3 className="w-8 h-8 text-blue-600" />
               <span className="text-xl font-bold text-gray-900">InsightStream</span>
             </div>
@@ -398,9 +398,9 @@ function App() {
       <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <BarChart3 className="w-8 h-8 text-blue-400" />
-              <span className="text-xl font-bold text-white">InsightStream</span>
+            <div className="flex items-center gap-2 mb-4 md:mb-0">
+              <BarChart3 className="w-6 h-6 text-blue-400" />
+              <span className="font-bold text-gray-700">InsightStream</span>
             </div>
             <div className="text-center md:text-right">
               <p className="text-sm">MVP Launch: November 2024</p>
